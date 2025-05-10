@@ -67,7 +67,7 @@ Paste:
 #!/bin/ksh
 
 daemon="/usr/local/bin/java"
-daemon_flags="-Xmx4096M -Xms4096M -jar /home/mcserver/minecraft/minecraft_server.jar nogui"
+daemon_flags="-Xmx4096M -Xms4096M -jar /home/mcserver/minecraft/server.jar nogui"
 daemon_user="mcserver"
 . /etc/rc.d/rc.subr
 
